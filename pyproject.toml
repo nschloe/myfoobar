@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+  "setuptools>=59",
+  "wheel",
+  "nuitka>=0.6.18.3"
+]
+build-backend = "nuitka.distutils.Build"
+
+[tool.isort]
+profile = "black"
